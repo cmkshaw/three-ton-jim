@@ -253,25 +253,8 @@ footer h3 {
     }
 
     .glide__arrow {
-        height: 32px;
-        width: 32px;
-        background: transparent;
-        margin-right: 16px;
+        display: none;
     }
-
-    .glide__arrow--right .arrow {
-        margin: 0;
-        padding-right: 12px;
-    }
-
-    .arrow {
-        background-image: url('../img/toggle.svg');
-        background-size: 30px 21px;
-        display: block;
-        height: 21px;
-        width: 24px;
-    }
-
 }
 
 /* Big Screen */
