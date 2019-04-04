@@ -255,6 +255,10 @@ footer h3 {
     .glide__arrow {
         display: none;
     }
+
+    .footer-info{
+        margin-left: 0;
+    }
 }
 
 /* Big Screen */
