@@ -182,9 +182,13 @@ header .container {
 
 @media all and (-ms-high-contrast:none) {
      .box {
-        width: 30%;
+        width: 25%;
         margin-right:1%;
         float: left;
+     }
+
+     .box-grid {
+        clear: both;
      }
 }
 
