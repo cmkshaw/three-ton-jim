@@ -85,6 +85,7 @@ header .container {
     color: #fff;
     padding: 0.2em 0;
     font-size: 1.5rem;
+    display: none;
 }
 
 .logo {
@@ -183,6 +184,9 @@ header .container {
 @media all and (-ms-high-contrast:none) {
     .box {
         margin-bottom: 16px;
+    }
+    .browserupgrade {
+        display: block;
     }
 }
 
