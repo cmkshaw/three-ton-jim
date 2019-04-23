@@ -174,12 +174,17 @@ header .container {
 }
 
 .box-grid {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1rem;
     margin-top:-50vh;
+}
+
+@media all and (-ms-high-contrast:none) {
+     .box {
+        width: 33%;
+        float: left;
+     }
 }
 
 .glide__arrow {
