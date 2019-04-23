@@ -182,7 +182,8 @@ header .container {
 
 @media all and (-ms-high-contrast:none) {
      .box {
-        width: 33%;
+        width: 30%;
+        margin-right:1%;
         float: left;
      }
 }
