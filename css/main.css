@@ -181,15 +181,9 @@ header .container {
 }
 
 @media all and (-ms-high-contrast:none) {
-     .box {
-        width: 25%;
-        margin-right:1%;
-        float: left;
-     }
-
-     .box-grid {
-        clear: both;
-     }
+    .box {
+        margin-bottom: 16px;
+    }
 }
 
 .glide__arrow {
