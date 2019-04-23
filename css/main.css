@@ -84,7 +84,6 @@ header .container {
     background: #1C2141;
     color: #fff;
     padding: 0.2em 0;
-    font-size: 1.5rem;
     display: none;
 }
 
@@ -184,9 +183,6 @@ header .container {
 @media all and (-ms-high-contrast:none) {
     .box {
         margin-bottom: 16px;
-    }
-    .browserupgrade {
-        display: block;
     }
 }
 
