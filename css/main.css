@@ -6,7 +6,7 @@
 
 html {
     font-size: 16px;
-    color: var(--primary-color);
+    color: #1C2141;
     line-height: 1.4;
     -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -81,7 +81,7 @@ header .container {
 
 .browserupgrade {
     margin: 0.2em 0;
-    background: var(--primary-color);
+    background: #1C2141;
     color: #fff;
     padding: 0.2em 0;
 }
@@ -130,11 +130,11 @@ header .container {
 }
 
 .phone {
-    color: var(--tertiary-color);
+    color: #3DA8B6;
 }
 
 .email {
-    color: var(--secondary-color);
+    color: #E26C6C;
 }
 
 .email:focus,
@@ -148,22 +148,21 @@ header .container {
     color: #fff;
     border-radius: 3px;
     padding: 2rem;
-    box-shadow: var(--box-shadow);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .box-1 {
-    background: var(--primary-color);
+    background: #1C2141;
 }
 
 .box-2 {
-    background: var(--secondary-color);
+    background: #E26C6C;
 }
 
 .box-3 {
-    background: var(--tertiary-color);
+    background: #3DA8B6;
 }
 
 .box-grid {
@@ -174,7 +173,7 @@ header .container {
 }
 
 .glide__arrow {
-    background: var(--primary-color);
+    background: #1C2141;
     height: 100px;
     width: 100px;
     border-radius:100px;
@@ -199,7 +198,7 @@ header .container {
 }
 
 footer {
-    background: var(--primary-color);
+    background: #1C2141;
 }
 
 footer .container{
